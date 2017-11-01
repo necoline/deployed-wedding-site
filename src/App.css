@@ -54,6 +54,17 @@
   border-radius: 30px;
 }
 
+.header {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+}
+
+.dec-line {
+  display: inline;
+  margin: 2% 5%;
+}
+
 .footer {
   height: 30%;
   display: flex;
