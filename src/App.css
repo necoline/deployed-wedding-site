@@ -33,11 +33,21 @@
   font-size: 30px;
   text-align: center;
   font-weight: normal;
+  margin: 0;
+}
+.sub-title {
+  font-size: 25px;
+  text-align: center;
+  font-weight: normal;
+  margin: 0;
 }
 
 @media only screen and (min-width: 2500px) {
   .title {
     font-size: 70px;
+  }
+  .sub-title {
+    font-size: 60px;
   }
 }
 
@@ -45,18 +55,35 @@
   .title {
     font-size: 15px;
   }
-}
-
-.sub-title {
-  font-size: 25px;
-  text-align: center;
-  font-weight: lighter;
-  margin: 0;
+  .sub-title {
+    font-size: 10px;
+  }
 }
 
 .body-title {
   margin: 0;
   padding-top: 1.5%;
+}
+
+.side-menu {
+  color: #1B5190;
+  margin: 5% 10%;
+  font-size: large;
+}
+@media only screen and (min-width: 2500px) {
+  .side-menu {
+    font-size: 50px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .side-menu {
+    font-size: 15px;
+    margin: 2% 3%;
+  }
+}
+
+.side-menu-text {
+  padding: 1% 0;
 }
 
 .home-header {
@@ -91,7 +118,7 @@
 .button-container {
   display: flex;
   justify-content: center;
-  margin: 10% 0;
+  margin: 5% 0;
 }
 
 .header {
@@ -146,5 +173,16 @@
 @media only screen and (max-width: 425px) {
   .button {
     font-size: 20px;
+  }
+  .inner-box {
+    border-color: #1B5190;
+    border-style: solid;
+    border-width: 5px;
+    width: 40vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    padding: 70px 0;
   }
 }
