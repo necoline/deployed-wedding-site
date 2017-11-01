@@ -1,3 +1,5 @@
+/*GLOBAL*/
+
 .text {
   font-family: Avenir Next, Arial;
 }
@@ -6,10 +8,43 @@
   color: #1B5190;
 }
 
+.footer {
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  font-family: cursive;
+  padding-bottom: 30px;
+}
+
+@media only screen and (min-width: 2500px) {
+  .footer {
+    font-size: 50px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .footer {
+    font-size: 10px;
+  }
+}
+
+/*MAIN HEADER*/
+
 .title {
   font-size: 30px;
   text-align: center;
   font-weight: normal;
+}
+
+@media only screen and (min-width: 2500px) {
+  .title {
+    font-size: 70px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .title {
+    font-size: 15px;
+  }
 }
 
 .sub-title {
@@ -28,9 +63,25 @@
   background-image: url("design/main-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
-  height: 600px;
+  min-height: 80vh;
   padding: 20px;
 }
+
+@media only screen and (max-width: 770px) {
+  .home-header {
+    min-height: 40vh;
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .home-header {
+    min-height: 20vh;
+    padding: 5px;
+  }
+}
+
+/*MAIN PAGE*/
 
 .main-body {
   background-color: floralwhite;
@@ -43,17 +94,6 @@
   margin: 10% 0;
 }
 
-.button {
-  text-align: center;
-  font-size: 30px;
-  color: floralwhite;
-  background-color: #1B5190;
-  width: 20%;
-  line-height: 250%;
-  text-decoration: none;
-  border-radius: 30px;
-}
-
 .header {
   display: inline-block;
   display: flex;
@@ -63,12 +103,38 @@
 .dec-line {
   display: inline;
   margin: 2% 5%;
+  overflow: hidden;
 }
 
-.footer {
-  height: 30%;
+.inner-box {
+  border-color: #1B5190;
+  border-style: solid;
+  width: 40vw;
+  height: 30vh;
   display: flex;
   justify-content: center;
-  font-family: cursive;
-  padding-bottom: 30px;
+  vertical-align: middle;
+  padding: 70px 0;
+}
+
+.button {
+  text-align: center;
+  font-size: 30px;
+  color: floralwhite;
+  background-color: #1B5190;
+  width: 20vw;
+  height: 15vh;
+  margin: 7% 0;
+  text-decoration: none;
+  border-radius: 30px;
+}
+@media only screen and (min-width: 2500px) {
+  .button {
+    font-size: 50px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .button {
+    font-size: 20px;
+  }
 }

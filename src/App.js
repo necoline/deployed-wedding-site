@@ -18,6 +18,7 @@ class App extends Component {
             </p>
             <DecorationLine />
           </div>
+          {/* add bold and thin lines around the button */}
           <Rsvp />
         </div>
       </div>
