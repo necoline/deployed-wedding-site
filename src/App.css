@@ -1,28 +1,63 @@
-.App {
+.text {
+  font-family: Avenir Next, Arial;
+}
+
+.blue {
+  color: #1B5190;
+}
+
+.title {
+  font-size: 30px;
   text-align: center;
+  font-weight: normal;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.sub-title {
+  font-size: 25px;
+  text-align: center;
+  font-weight: lighter;
+  margin: 0;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
+.body-title {
+  margin: 0;
+  padding-top: 1.5%;
+}
+
+.home-header {
+  background-image: url("design/main-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  height: 600px;
   padding: 20px;
-  color: white;
 }
 
-.App-title {
-  font-size: 1.5em;
+.main-body {
+  background-color: floralwhite;
+  margin: 0;
 }
 
-.App-intro {
-  font-size: large;
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin: 10% 0;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.button {
+  text-align: center;
+  font-size: 30px;
+  color: floralwhite;
+  background-color: #1B5190;
+  width: 20%;
+  line-height: 250%;
+  text-decoration: none;
+  border-radius: 30px;
+}
+
+.footer {
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  font-family: cursive;
+  padding-bottom: 30px;
 }
