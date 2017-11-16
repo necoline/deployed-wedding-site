@@ -1,34 +1,20 @@
-import React, { Component } from 'react';
-import './App.css';
-import Rsvp from './Rsvp.js';
-import DecorationLine from './DecorationLine.js';
+import React from 'react';
+import { render } from 'react-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Home from './Home';
+import EventDetails from './EventDetails';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="body">
-        <header className="home-header">
-          <h1 className="text title blue">Patrick + Necoline </h1>
-          <p className="text sub-title blue">4.23.2018</p>
-          <div className="side-menu text">
-            <div className="side-menu-text">Our Story</div>
-            <div className="side-menu-text">Visiting Sydney</div>
-            <div className="side-menu-text">Event Details</div>
-          </div>
-        </header>
-        <div className="main-body">
-          <div className="header">
-            <DecorationLine />
-            <p className="title text blue body-title">
-              Please RSVP by January 15, 2018
-            </p>
-            <DecorationLine />
-          </div>
-          <Rsvp />
-        </div>
-      </div>
-    );
-  }
-}
+const FourOhFour = () => <h1>404</h1>;
+
+const App = () =>
+  <BrowserRouter>
+    <div className="app">
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/event-details" component={EventDetails} />
+        <Route component={FourOhFour} />
+      </Switch>
+    </div>
+  </BrowserRouter>;
 
 export default App;

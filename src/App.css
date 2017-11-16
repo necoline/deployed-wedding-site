@@ -111,7 +111,12 @@
 /*MAIN PAGE*/
 
 .main-body {
-  background-color: floralwhite;
+  /*background-color: floralwhite;*/
+  background-image: url("design/wood-bkgrd.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+  padding: 20px;
   margin: 0;
 }
 
