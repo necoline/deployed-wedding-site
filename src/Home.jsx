@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './App.css';
 import Rsvp from './Rsvp.js';
 import DecorationLine from './DecorationLine.js';
@@ -13,7 +14,9 @@ class Home extends Component {
           <div className="side-menu text">
             <div className="side-menu-text">Our Story</div>
             <div className="side-menu-text">Visiting Sydney</div>
-            <div className="side-menu-text">Event Details</div>
+            <Link to="/event-details">
+              <div className="side-menu-text">Event Details</div>
+            </Link>
           </div>
         </header>
         <div className="main-body">
