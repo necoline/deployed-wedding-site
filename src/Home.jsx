@@ -19,7 +19,7 @@ class Home extends Component {
             </Link>
           </div>
         </header>
-        <div className="main-body">
+        <div className="home-body">
           <div className="header">
             <DecorationLine />
             <p className="title text blue body-title">
