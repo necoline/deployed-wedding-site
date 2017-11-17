@@ -265,3 +265,43 @@ a {
   padding: 20px;
   margin: 0;
 }
+
+.visiting-sydney-content {
+  margin: 3% 7%;
+}
+
+.cards {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5%;
+  grid-template-areas: "a a a" "b b b" "c d e";
+}
+
+.card-category {
+  grid-area: a;
+  background-color: #e5dbff;
+}
+.card-description {
+  grid-area: b;
+  background-color: plum;
+}
+.card-detail1 {
+  grid-area: c;
+  background-color: #1B5190CC;
+}
+.card-detail2 {
+  grid-area: d;
+  background-color: #1B5190CC;
+}
+.card-detail3 {
+  grid-area: e;
+  background-color: #1B5190CC;
+}
+.cards li {
+  padding: 10px;
+  border-radius: 5px;
+  height: 20px;
+}

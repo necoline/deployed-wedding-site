@@ -29,6 +29,15 @@ class VisitingSydney extends Component {
               </Link>
             </div>
           </div>
+          <div className="visiting-sydney-content">
+            <ul class="cards">
+              <li class="card-category" />
+              <li class="card-description" />
+              <li class="card-detail1" />
+              <li class="card-detail2" />
+              <li class="card-detail3" />
+            </ul>
+          </div>
         </div>
       </div>
     );
