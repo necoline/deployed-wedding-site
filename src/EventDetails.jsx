@@ -21,12 +21,12 @@ class EventDetails extends Component {
             </div>
             <div className="top-menu-text-center">
               <Link to="/">
-                Our Story
+                Visiting Sydney
               </Link>
             </div>
             <div className="top-menu-text-right">
               <Link to="/">
-                Visiting Sydney
+                Our Story
               </Link>
             </div>
           </div>
