@@ -3,6 +3,7 @@ import { render } from 'react-dom';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './Home';
 import EventDetails from './EventDetails';
+import VisitingSydney from './VisitingSydney';
 
 const FourOhFour = () => <h1>404</h1>;
 
@@ -12,6 +13,7 @@ const App = () =>
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/event-details" component={EventDetails} />
+        <Route path="/visiting-sydney" component={VisitingSydney} />
         <Route component={FourOhFour} />
       </Switch>
     </div>

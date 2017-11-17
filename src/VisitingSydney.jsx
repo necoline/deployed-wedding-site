@@ -2,14 +2,14 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import './App.css';
 
-class EventDetails extends Component {
+class VisitingSydney extends Component {
   render() {
     return (
       <div className="body">
-        <div className="event-details-body">
+        <div className="visiting-sydney-body">
           <div className="header">
             <p className="title text blue body-title">
-              Event Details
+              Sydney
             </p>
           </div>
           <div className="top-menu text">
@@ -19,8 +19,8 @@ class EventDetails extends Component {
               </Link>
             </div>
             <div className="top-menu-text-center">
-              <Link to="/visiting-sydney">
-                Visiting Sydney
+              <Link to="/event-details">
+                Event Details
               </Link>
             </div>
             <div className="top-menu-text-right">
@@ -35,4 +35,4 @@ class EventDetails extends Component {
   }
 }
 
-export default EventDetails;
+export default VisitingSydney;

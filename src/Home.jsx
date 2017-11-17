@@ -13,7 +13,9 @@ class Home extends Component {
           <p className="text sub-title blue">4.23.2018</p>
           <div className="side-menu text">
             <div className="side-menu-text">Our Story</div>
-            <div className="side-menu-text">Visiting Sydney</div>
+            <Link to="/visiting-sydney">
+              <div className="side-menu-text">Visiting Sydney</div>
+            </Link>
             <Link to="/event-details">
               <div className="side-menu-text">Event Details</div>
             </Link>

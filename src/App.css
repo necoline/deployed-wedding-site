@@ -253,3 +253,15 @@ a {
   padding: 20px;
   margin: 0;
 }
+
+/* VISITING SYDNEY PAGE */
+
+.visiting-sydney-body {
+  background-color: floralwhite;
+  background-image: url("design/sydney-bkgrd.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 20px;
+  margin: 0;
+}
