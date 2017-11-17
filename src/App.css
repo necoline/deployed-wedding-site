@@ -8,6 +8,11 @@
   color: #1B5190;
 }
 
+a {
+  color: #1B5190;
+  text-decoration: none;
+}
+
 .footer {
   height: 30%;
   display: flex;
@@ -86,6 +91,46 @@
   padding: 1% 0;
 }
 
+.top-menu {
+  color: #1B5190;
+  display: flex;
+  justify-content: center;
+  width: 60vw;
+  margin: 0vw 20vw;
+  border-top: thin solid #1B5190;
+  font-family: Snell Roundhand, cursive;
+  font-size: 20px;
+}
+@media only screen and (min-width: 2500px) {
+  .top-menu {
+    font-size: 60px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .top-menu {
+    font-size: 20px;
+  }
+}
+
+.top-menu-text-left {
+  display: inline;
+  text-align: left;
+  width: 100%;
+  padding: 1% 5%;
+}
+.top-menu-text-center {
+  display: inline;
+  text-align: center;
+  width: 100%;
+  padding: 1% 5%;
+}
+.top-menu-text-right {
+  display: inline;
+  text-align: right;
+  width: 100%;
+  padding: 1% 5%;
+}
+
 .home-header {
   background-image: url("design/main-background.jpg");
   background-size: 100% auto;
@@ -108,9 +153,9 @@
   }
 }
 
-/*MAIN PAGE*/
+/*HOME PAGE*/
 
-.main-body {
+.home-body {
   /*background-color: floralwhite;*/
   background-image: url("design/wood-bkgrd.jpg");
   background-size: 100% auto;
@@ -127,6 +172,11 @@
 }
 
 .header {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+}
+.header-line {
   display: inline-block;
   display: flex;
   justify-content: center;
@@ -190,4 +240,16 @@
     vertical-align: middle;
     padding: 70px 0;
   }
+}
+
+/* EVENT DETAILS PAGE */
+
+.event-details-body {
+  background-color: floralwhite;
+  background-image: url("design/details.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 20px;
+  margin: 0;
 }
