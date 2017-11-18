@@ -96,7 +96,7 @@ a {
   display: flex;
   justify-content: center;
   width: 60vw;
-  margin: 0vw 20vw;
+  margin: 0vw 18.5vw;
   border-top: thin solid #1B5190;
   font-family: Snell Roundhand, cursive;
   font-size: 20px;
@@ -156,7 +156,6 @@ a {
 /*HOME PAGE*/
 
 .home-body {
-  /*background-color: floralwhite;*/
   background-image: url("design/wood-bkgrd.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;

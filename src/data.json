@@ -1,11 +1,11 @@
 {
-  "accomodation": [
+  "accomodations": [
     {
       "region": "NORTH SYDNEY",
       "about": "A suburb in the lower north shore of Sydney. As there are several buildings heritage-listed it makes it a beautiful place to wander about, providing you a “historic” vibe.  Local spots are the Greenwood Plaza, the Greenwood Hotel and Milson’s Point where you can walk across the Harbour Bridge into central Sydney.",
       "directions": " If your focus is solely being close in proximity to the wedding location, this is the best option. It’s north of the harbour reducing your travel time immensely but still accessible to Sydney central.",
-      "driving-time": "17 minute drive",
-      "driving-cost": "$20 Taxi/Uber",
+      "drivingTime": "17 minute drive",
+      "drivingCost": "$20 Taxi/Uber",
       "hotels":[
         {
           "name":"Rydges North Sydney",
@@ -32,8 +32,8 @@
       "region": "THE ROCKS",
       "about": "A neighbourhood made up of historic laneways in the shadow of Sydney Harbour Bridge. The area has some of Sydney’s oldest pubs and restaurants with harbour views as  it was the first place of English settlement in Australia. Local spots are Museum of Contemporary Art, The Rocks Markets, The Glenmore pub, The Australian pub, history tours and selection of other activities. This area will be the most expensive option for accommodation.",
       "directions": "This is the best option if you want to be midway between the wedding location and central city. It is the first neighbourhood over the harbour",
-      "driving-time": "25 minute drive",
-      "driving-cost": "$30 Taxi/Uber",
+      "drivingTime": "25 minute drive",
+      "drivingCost": "$30 Taxi/Uber",
       "hotels":[
         {
           "name":"Sydney Harbour Bed & Breakfast",
@@ -53,15 +53,15 @@
           "address":"75 Harrington Street, The Rocks (6 min walk to Circular Quay)",
           "price-range": "$$$",
           "url":"e.jpg"
-        },
+        }
       ]
     },
     {
       "region": "SYDNEY CENTRAL",
       "about": "Neighbourhood located at the southern end of the central business district. Home of the largest railway station in New South Wales. It’s also known for converted warehouses and a creative scene. Local spots include galleries around Abercrombie Street, Seymour Centre, plenty of places to eat and drink and easy access to all neighbouring suburbs.",
       "directions": "If your focused on staying pretty central in the city this is your best option.",
-      "driving-time": "30 minute drive",
-      "driving-cost": "$35 Taxi/Uber",
+      "drivingTime": "30 minute drive",
+      "drivingCost": "$35 Taxi/Uber",
       "hotels":[
         {
           "name":"28 Hotel",
@@ -81,15 +81,15 @@
           "address":"75 Wentworth Avenue, Sydney CBD (5 min walk to Museum Station)",
           "price-range": "$$",
           "url":"i.jpg"
-        },
+        }
       ]
     },
     {
       "region": "SYDNEY CENTRAL/SURRY HILLS",
       "about": "An area you may associate the word “hipster” with, well known for its trendy inhabitants. Crown and Cleveland streets sport awesome coffee joints, fashion boutiques and eateries from all over the world. Local spots include any pub, any café, any wine bar and any gallery.",
       "directions": "Again, if you’re focused on staying pretty central Sydney this is your best (and nicest) option.",
-      "driving-time": "30 minute drive",
-      "driving-cost": "$40 Taxi/Uber",
+      "drivingTime": "30 minute drive",
+      "drivingCost": "$40 Taxi/Uber",
       "hotels":[
         {
           "name":"57 Hotel",
@@ -109,15 +109,15 @@
           "address":"28 Albion Street, Surry Hills (5 min walk to Central Station)",
           "price-range": "$$",
           "url":"l.jpg"
-        },
+        }
       ]
     },
     {
       "region": "MANLY BEACH",
       "about": "The most famous beach of the Northern Beaches. The beach was named by Captain Arthur Phillip. The Corso, a pedestrian plaza consists of shops, coffee joints, cafes and bars. Great coastal spot for shopping and dining. Local spots also include visiting the neighbouring beaches Fairy Bower and Shelley Beach. Good location if you want to avoid the hustle and bustle of Sydney central.",
       "directions": "Quite easy to get to the wedding location as it’s on the same side of the harbour. Best option to go via a car.",
-      "driving-time": "20 minute drive",
-      "driving-cost": "$25 Taxi/Uber",
+      "drivingTime": "20 minute drive",
+      "drivingCost": "$25 Taxi/Uber",
       "hotels":[
         {
           "name":"Manly Paradise Motel & Apartments",
@@ -137,8 +137,8 @@
           "address":"28 Albion Street, Surry Hills (5 min walk to Central Station)",
           "price-range": "$$",
           "url":"l.jpg"
-        },
+        }
       ]
-    },
+    }
   ]
 }

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import data from './data.json';
 import './App.css';
 
 class VisitingSydney extends Component {
@@ -9,7 +10,7 @@ class VisitingSydney extends Component {
         <div className="visiting-sydney-body">
           <div className="header">
             <p className="title text blue body-title">
-              Sydney
+              Visiting Sydney
             </p>
           </div>
           <div className="top-menu text">
@@ -30,13 +31,33 @@ class VisitingSydney extends Component {
             </div>
           </div>
           <div className="visiting-sydney-content">
-            <ul class="cards">
-              <li class="card-category" />
-              <li class="card-description" />
-              <li class="card-detail1" />
-              <li class="card-detail2" />
-              <li class="card-detail3" />
-            </ul>
+            <div class="card-category">
+              Accomodations
+            </div>
+            {data.accomodations.map(item =>
+              <ul class="cards">
+                <li class="card-description">
+                  {item.region}
+                  <br />
+                  {item.about}
+                  <br />
+                  {item.directions}
+                  <br />
+                  {item.drivingTime}
+                  <br />
+                  {item.drivingCost}
+                </li>
+                {item.hotels.map(hotel =>
+                  <div>
+                    <li class="card-detail1">
+                      {hotel.name}
+                    </li>
+                    {/* <li class="card-detail2" />
+                  <li class="card-detail3" /> */}
+                  </div>
+                )}
+              </ul>
+            )}
           </div>
         </div>
       </div>
