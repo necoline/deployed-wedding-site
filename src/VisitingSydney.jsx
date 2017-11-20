@@ -31,12 +31,14 @@ class VisitingSydney extends Component {
             </div>
           </div>
           <div className="visiting-sydney-content">
-            <div class="card-category">
-              Accomodations
+            <div className="card-category">
+              <p className="text blue card-category-text">
+                Accomodations
+              </p>
             </div>
             {data.accomodations.map(item =>
-              <ul class="cards">
-                <li class="card-description">
+              <ul className="cards text ">
+                <li className="blue card-description" key={item.region}>
                   {item.region}
                   <br />
                   {item.about}
@@ -49,16 +51,23 @@ class VisitingSydney extends Component {
                 </li>
                 {item.hotels.map(hotel =>
                   <div>
-                    <li class="card-detail1">
+                    <li className="card-detail1" key={hotel.name}>
+                      <img className="card-img" alt={`${hotel.name} photo`} src={`../hotels/${hotel.url}`} />
+                      <br />
                       {hotel.name}
+                      <br />
+                      {hotel.address}
+                      <br />
+                      {hotel.transit}
+                      <br />
+                      {hotel.priceRange}
                     </li>
-                    {/* <li class="card-detail2" />
-                  <li class="card-detail3" /> */}
                   </div>
                 )}
               </ul>
             )}
           </div>
+          {/* <div className="faded-top" /> */}
         </div>
       </div>
     );

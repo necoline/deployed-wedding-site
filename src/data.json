@@ -10,20 +10,20 @@
         {
           "name":"Rydges North Sydney",
           "address":"54 McLaren Street, North Sydney",
-          "price-range": "$",
+          "priceRange": "$",
           "url":"a.jpg"
         },
         {
           "name":"The North Sydney Hotel",
           "address":"290/292 Miller Street, North Sydney",
-          "price-range": "$",
+          "priceRange": "$",
           "url":"b.jpg"
 
         },
         {
           "name":"Meriton Suites North Sydney",
           "address":"80 Arthur Street, North Sydney",
-          "price-range": "$$",
+          "priceRange": "$$",
           "url":"c.jpg"
         }
       ]
@@ -37,22 +37,25 @@
       "hotels":[
         {
           "name":"Sydney Harbour Bed & Breakfast",
-          "address":"140-142 Cumberland Street, The Rocks (8 min walk to Circular Quay)",
-          "price-range": "$$",
+          "address":"140-142 Cumberland Street, The Rocks",
+          "transit":"(8 min walk to Circular Quay)",
+          "priceRange": "$$",
           "url":"d.jpg"
         },
         {
           "name":"The Mercantile Hotel",
-          "address":"25 George Street, The Rocks (8 min walk to Circular Quay)",
-          "price-range": "$$",
+          "address":"25 George Street, The Rocks",
+          "transit":"(8 min walk to Circular Quay)",
+          "priceRange": "$$",
           "url":"e.jpg"
 
         },
         {
           "name":"Rendezvous Hotel Sydney The Rocks",
-          "address":"75 Harrington Street, The Rocks (6 min walk to Circular Quay)",
-          "price-range": "$$$",
-          "url":"e.jpg"
+          "address":"75 Harrington Street, The Rocks",
+          "transit":"(6 min walk to Circular Quay)",
+          "priceRange": "$$$",
+          "url":"f.jpg"
         }
       ]
     },
@@ -65,21 +68,24 @@
       "hotels":[
         {
           "name":"28 Hotel",
-          "address":"28 Regent Street, Sydney CBD (8 min walk to Central Station)",
-          "price-range": "$",
+          "address":"28 Regent Street, Sydney CBD",
+          "transit":"(8 min walk to Circular Quay)",
+          "priceRange": "$",
           "url":"g.jpg"
         },
         {
           "name":"Napoleon on Kent",
-          "address":"219 Kent Street, Sydney CBD (3 min walk to Wynyard Station)",
-          "price-range": "$",
+          "address":"219 Kent Street, Sydney CBD",
+          "transit":"(3 min walk to Wynyard Station)",
+          "priceRange": "$",
           "url":"h.jpg"
 
         },
         {
           "name":"Central Station Hotel",
-          "address":"75 Wentworth Avenue, Sydney CBD (5 min walk to Museum Station)",
-          "price-range": "$$",
+          "address":"75 Wentworth Avenue, Sydney CBD",
+          "transit":"(5 min walk to Museum Station)",
+          "priceRange": "$$",
           "url":"i.jpg"
         }
       ]
@@ -93,21 +99,24 @@
       "hotels":[
         {
           "name":"57 Hotel",
-          "address":"57 Foveaux Street, Surry Hills (5 min walk to Central Station)",
-          "price-range": "$",
+          "address":"57 Foveaux Street, Surry Hills",
+          "transit":"(5 min walk to Central Station)",
+          "priceRange": "$",
           "url":"j.jpg"
         },
         {
           "name":"Hotel Harry",
-          "address":"40-44 Wentworth Avenue, Surry Hills (4 min walk to Museum Station)",
-          "price-range": "$$",
+          "address":"40-44 Wentworth Avenue, Surry Hills",
+          "transit":"(4 min walk to Museum Station)",
+          "priceRange": "$$",
           "url":"k.jpg"
 
         },
         {
           "name":"Rydges Sydney Central",
-          "address":"28 Albion Street, Surry Hills (5 min walk to Central Station)",
-          "price-range": "$$",
+          "address":"28 Albion Street, Surry Hills",
+          "transit":"(5 min walk to Central Station)",
+          "priceRange": "$$",
           "url":"l.jpg"
         }
       ]
@@ -121,21 +130,24 @@
       "hotels":[
         {
           "name":"Manly Paradise Motel & Apartments",
-          "address":"54 North Steyne, Manly (7 min walk to Manly Wharf)",
-          "price-range": "$$",
+          "address":"54 North Steyne, Manly",
+          "transit":"(7 min walk to Manly Wharf)",
+          "priceRange": "$$",
           "url":"m.jpg"
         },
         {
           "name":"The Sebel Manly Beach",
-          "address":"8-13 South Steyne, Manly (8 min walk to Manly Wharf)",
-          "price-range": "$$$",
+          "address":"8-13 South Steyne, Manly",
+          "transit":"(8 min walk to Manly Wharf)",
+          "priceRange": "$$$",
           "url":"n.jpg"
 
         },
         {
           "name":"Rydges Sydney Central",
-          "address":"28 Albion Street, Surry Hills (5 min walk to Central Station)",
-          "price-range": "$$",
+          "address":"28 Albion Street, Surry Hills",
+          "transit":"(5 min walk to Central Station)",
+          "priceRange": "$$",
           "url":"l.jpg"
         }
       ]
