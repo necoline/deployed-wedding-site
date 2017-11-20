@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import './App.css';
-import DecorationLine from './DecorationLine.js';
 
 class EventDetails extends Component {
   render() {
@@ -20,7 +19,7 @@ class EventDetails extends Component {
               </Link>
             </div>
             <div className="top-menu-text-center">
-              <Link to="/">
+              <Link to="/visiting-sydney">
                 Visiting Sydney
               </Link>
             </div>

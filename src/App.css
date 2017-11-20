@@ -96,7 +96,7 @@ a {
   display: flex;
   justify-content: center;
   width: 60vw;
-  margin: 0vw 20vw;
+  margin: 0vw 18.5vw;
   border-top: thin solid #1B5190;
   font-family: Snell Roundhand, cursive;
   font-size: 20px;
@@ -156,7 +156,6 @@ a {
 /*HOME PAGE*/
 
 .home-body {
-  /*background-color: floralwhite;*/
   background-image: url("design/wood-bkgrd.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -252,4 +251,73 @@ a {
   min-height: 100vh;
   padding: 20px;
   margin: 0;
+}
+
+/* VISITING SYDNEY PAGE */
+
+.visiting-sydney-body {
+  background-color: floralwhite;
+  background-image: url("design/sydney-bkgrd.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 20px;
+  margin: 0;
+}
+
+.visiting-sydney-content {
+  margin: 3% 7%;
+  overflow-y: scroll;
+  height: 80vh;
+}
+
+.cards {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5%;
+  grid-template-areas: "b b b" "c d e";
+}
+
+.card-category {
+  grid-area: a;
+  font-size: large;
+  text-align: right;
+}
+.card-description {
+  grid-area: b;
+}
+
+.card-category-text {
+  width: 40%;
+  margin-left: 55%;
+  font-size: 25px;
+  padding-right: 3%;
+  border-bottom: thin solid #1B5190;
+}
+
+.card-detail1 {
+  grid-area: c;
+  background-color: #1B5190B3;
+  color: #FFFAF0CC;
+  text-align: center;
+}
+
+.card-detail2 {
+  grid-area: d;
+  background-color: #1B5190CC;
+}
+.card-detail3 {
+  grid-area: e;
+  background-color: #1B5190CC;
+}
+.cards li {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.card-img {
+  height: 17vh;
 }
