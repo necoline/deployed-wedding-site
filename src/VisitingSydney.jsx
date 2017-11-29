@@ -67,7 +67,6 @@ class VisitingSydney extends Component {
               </ul>
             )}
           </div>
-          {/* <div className="faded-top" /> */}
         </div>
       </div>
     );

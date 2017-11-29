@@ -25,7 +25,7 @@ class Home extends Component {
           <div className="header">
             <DecorationLine />
             <p className="title text blue body-title">
-              Please RSVP by January 15, 2018
+              Please RSVP by February 1st, 2018
             </p>
             <DecorationLine />
           </div>
