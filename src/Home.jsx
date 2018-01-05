@@ -12,7 +12,9 @@ class Home extends Component {
           <h1 className="text title blue">Patrick + Necoline </h1>
           <p className="text sub-title blue">4.23.2018</p>
           <div className="side-menu text">
-            <div className="side-menu-text">Our Story</div>
+            <Link to="/our-story">
+              <div className="side-menu-text">Our Story</div>
+            </Link>
             <Link to="/visiting-sydney">
               <div className="side-menu-text">Visiting Sydney</div>
             </Link>

@@ -25,7 +25,7 @@ class VisitingSydney extends Component {
               </Link>
             </div>
             <div className="top-menu-text-right">
-              <Link to="/">
+              <Link to="/our-story">
                 Our Story
               </Link>
             </div>
@@ -33,34 +33,81 @@ class VisitingSydney extends Component {
           <div className="visiting-sydney-content">
             <div className="card-category">
               <p className="text blue card-category-text">
-                Accomodations
+                Places to Stay
               </p>
             </div>
             {data.accomodations.map(item =>
               <ul className="cards text ">
                 <li className="blue card-description" key={item.region}>
-                  {item.region}
-                  <br />
-                  {item.about}
-                  <br />
-                  {item.directions}
-                  <br />
-                  {item.drivingTime}
-                  <br />
-                  {item.drivingCost}
+                  <h2 className="light-text">{item.region}</h2>
+                  <h3 className="light-text">{item.about}</h3>
+                  <h3 className="light-text">{item.directions}</h3>
+                  <h3 className="light-text">{item.drivingTime}</h3>
+                  <h3 className="light-text">{item.drivingCost}</h3>
                 </li>
                 {item.hotels.map(hotel =>
                   <div>
-                    <li className="card-detail1" key={hotel.name}>
-                      <img className="card-img" alt={`${hotel.name} photo`} src={`../hotels/${hotel.url}`} />
-                      <br />
-                      {hotel.name}
-                      <br />
-                      {hotel.address}
-                      <br />
-                      {hotel.transit}
-                      <br />
-                      {hotel.priceRange}
+                    <li className="card-detail1" href={hotel.website} key={hotel.name} >
+                      <a href={hotel.website} target="_blank">
+                        <img className="card-img" alt={`${hotel.name} photo`} src={`../hotels/${hotel.url}`} />
+                        <br />
+                        <p>{hotel.name}</p>
+                        <p>{hotel.address}</p>
+                        <p>{hotel.transit}</p>
+                        <p>{hotel.priceRange}</p>
+                      </a>
+                    </li>
+                  </div>
+                )}
+              </ul>
+            )}
+            <div className="card-category">
+              <p className="text blue card-category-text">
+                Things to Do
+              </p>
+            </div>
+            {data.attractions.map(item =>
+              <ul className="cards text ">
+                <li className="blue card-description" key={item.region}>
+                  {item.summary}
+                </li>
+                {item.activities.map(activity =>
+                  <div>
+                    <li className="card-detail1 margin" href={activity.website} key={activity.name} >
+                      <a href={activity.website} target="_blank">
+                        <img className="card-img" alt={`${activity.name} photo`} src={`../attractions/${activity.url}`} />
+                        <br />
+                        <p>{activity.name}</p>
+                        <p>{activity.address}</p>
+                        <p>{activity.transit}</p>
+                        <p>{activity.priceRange}</p>
+                      </a>
+                    </li>
+                  </div>
+                )}
+              </ul>
+            )}
+            <div className="card-category">
+              <p className="text blue card-category-text">
+                Places to Eat
+              </p>
+            </div>
+            {data.food.map(item =>
+              <ul className="cards text ">
+                <li className="blue card-description" key={item.region}>
+                  {item.summary}
+                </li>
+                {item.locations.map(location =>
+                  <div>
+                    <li className="card-detail1 margin" href={location.website} key={location.name} >
+                      <a href={location.website} target="_blank">
+                        <img className="card-img" alt={`${location.name} photo`} src={`../food/${location.url}`} />
+                        <br />
+                        <p>{location.name}</p>
+                        <p>{location.address}</p>
+                        <p>{location.details}</p>
+                        <p>{location.priceRange}</p>
+                      </a>
                     </li>
                   </div>
                 )}

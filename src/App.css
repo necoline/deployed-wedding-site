@@ -290,6 +290,10 @@ a {
   grid-area: b;
 }
 
+.light-text {
+  font-weight: normal;
+}
+
 .card-category-text {
   width: 40%;
   margin-left: 55%;
@@ -305,6 +309,10 @@ a {
   text-align: center;
 }
 
+.card-detail1 a {
+  color: #FFFAF0CC;
+}
+
 .card-detail2 {
   grid-area: d;
   background-color: #1B5190CC;
@@ -318,6 +326,94 @@ a {
   border-radius: 5px;
 }
 
+.margin {
+  margin: 5% 0;
+}
+
 .card-img {
   height: 17vh;
+}
+
+/* OUR STORY */
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/429997/bjork.jpg');
+  overflow-y: hidden;
+}
+
+.grid {
+  display: grid;
+  width: 100vmin;
+  grid-template-columns: repeat(3, 1fr);
+  transform: rotate(45deg);
+  height: 100vmin;
+  grid-gap: 10px;
+  margin: 30px auto;
+  background-color: purple;
+  position: relative;
+  overflow: hidden;
+}
+
+.grid:before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  transform: rotate(-45deg);
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/429997/bjork.jpg') 0 0 repeat;
+  background-size: cover;
+}
+
+.grid div {
+  background-color: purple;
+}
+
+.grid div:first-child {
+  mix-blend-mode: multiply;
+}
+
+.grid div:nth-child(2) {
+  mix-blend-mode: overlay;
+}
+
+.grid div:nth-child(6), .grid div:nth-child(3) {
+  position: relative;
+  overflow: hidden;
+}
+
+.grid div:nth-child(6):before, .grid div:nth-child(3):before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  transform: rotate(-45deg);
+}
+
+.grid div:nth-child(6):before {
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/429997/bjorkagain.jpg') 0 0;
+  background-size: cover;
+}
+
+.grid div:nth-child(3):before {
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/429997/bjorkginger.jpg') 0 0;
+}
+
+.grid div:nth-child(7) {
+  mix-blend-mode: saturation;
+}
+.grid div:nth-child(8) {
+  background-color: #88FFBF;
+}
+.grid div:nth-child(9) {
+  mix-blend-mode: hue;
+}
+
+.grid div:hover {
+  mix-blend-mode: normal !important;
 }
