@@ -11,20 +11,23 @@
           "name":"Rydges North Sydney",
           "address":"54 McLaren Street, North Sydney",
           "priceRange": "$",
-          "url":"a.jpg"
+          "url":"a.jpg",
+          "website":"https://www.rydges.com/accommodation/sydney-nsw/north-sydney"
         },
         {
           "name":"The North Sydney Hotel",
           "address":"290/292 Miller Street, North Sydney",
           "priceRange": "$",
-          "url":"b.jpg"
+          "url":"b.jpg",
+          "website":"http://www.northsydneyhotel.com.au/"
 
         },
         {
           "name":"Meriton Suites North Sydney",
           "address":"80 Arthur Street, North Sydney",
           "priceRange": "$$",
-          "url":"c.jpg"
+          "url":"c.jpg",
+          "website":"https://www.meritonsuites.com.au/our-hotels/nsw/northern-sydney/north-sydney/"
         }
       ]
     },
@@ -40,14 +43,16 @@
           "address":"140-142 Cumberland Street, The Rocks",
           "transit":"(8 min walk to Circular Quay)",
           "priceRange": "$$",
-          "url":"d.jpg"
+          "url":"d.jpg",
+          "website":"http://www.bbsydneyharbour.com.au/"
         },
         {
           "name":"The Mercantile Hotel",
           "address":"25 George Street, The Rocks",
           "transit":"(8 min walk to Circular Quay)",
           "priceRange": "$$",
-          "url":"e.jpg"
+          "url":"e.jpg",
+          "website":"http://www.themercantilehotel.com.au/"
 
         },
         {
@@ -55,7 +60,8 @@
           "address":"75 Harrington Street, The Rocks",
           "transit":"(6 min walk to Circular Quay)",
           "priceRange": "$$$",
-          "url":"f.jpg"
+          "url":"f.jpg",
+          "website":"https://rendezvoushotels.com/hotel/sydney-the-rocks"
         }
       ]
     },
@@ -71,22 +77,25 @@
           "address":"28 Regent Street, Sydney CBD",
           "transit":"(8 min walk to Circular Quay)",
           "priceRange": "$",
-          "url":"g.jpg"
+          "url":"g.jpg",
+          "website":"https://www.28hotel.com.au/"
         },
         {
           "name":"Napoleon on Kent",
           "address":"219 Kent Street, Sydney CBD",
           "transit":"(3 min walk to Wynyard Station)",
           "priceRange": "$",
-          "url":"h.jpg"
+          "url":"h.jpg",
+          "website":"http://napoleon-on-kent.business.site/"
 
         },
         {
-          "name":"Central Station Hotel",
+          "name":"Veriu Hotel",
           "address":"75 Wentworth Avenue, Sydney CBD",
           "transit":"(5 min walk to Museum Station)",
           "priceRange": "$$",
-          "url":"i.jpg"
+          "url":"i.jpg",
+          "website":"http://www.veriu.com.au/central/"
         }
       ]
     },
@@ -102,14 +111,16 @@
           "address":"57 Foveaux Street, Surry Hills",
           "transit":"(5 min walk to Central Station)",
           "priceRange": "$",
-          "url":"j.jpg"
+          "url":"j.jpg",
+          "website":"https://www.57hotel.com.au/"
         },
         {
           "name":"Hotel Harry",
           "address":"40-44 Wentworth Avenue, Surry Hills",
           "transit":"(4 min walk to Museum Station)",
           "priceRange": "$$",
-          "url":"k.jpg"
+          "url":"k.jpg",
+          "website":"http://www.hotelharry.com.au/"
 
         },
         {
@@ -117,7 +128,8 @@
           "address":"28 Albion Street, Surry Hills",
           "transit":"(5 min walk to Central Station)",
           "priceRange": "$$",
-          "url":"l.jpg"
+          "url":"l.jpg",
+          "website":"https://www.rydges.com/accommodation/sydney-nsw/sydney-central/"
         }
       ]
     },
@@ -133,22 +145,122 @@
           "address":"54 North Steyne, Manly",
           "transit":"(7 min walk to Manly Wharf)",
           "priceRange": "$$",
-          "url":"m.jpg"
+          "url":"m.jpg",
+          "website":"https://www.manlyparadise.com.au/"
         },
         {
           "name":"The Sebel Manly Beach",
           "address":"8-13 South Steyne, Manly",
           "transit":"(8 min walk to Manly Wharf)",
           "priceRange": "$$$",
-          "url":"n.jpg"
+          "url":"n.jpg",
+          "website":"https://www.accorhotels.com/gb/hotel-8803-the-sebel-sydney-manly-beach/index.shtml"
+        }
+      ]
+    }
+  ],
+  "attractions": [
+    {
+      "summary": "There is more to do than the day is long here Sydney. As you are planning your stay, here are a few iconic tourist attrications for you to consider.",
 
+      "activities":[
+        {
+          "name":"Taronga Zoo",
+          "address":"Bradley's Head Road, Mosman",
+          "priceRange": "$$",
+          "url":"zoo.jpg",
+          "website":"https://taronga.org.au/taronga-zoo"
         },
         {
-          "name":"Rydges Sydney Central",
-          "address":"28 Albion Street, Surry Hills",
-          "transit":"(5 min walk to Central Station)",
+          "name":"Sydney Opera House",
+          "address":"Bennelong Point, Sydney",
+          "priceRange": "$ - $$$",
+          "url":"operahouse.jpg",
+          "website":"https://www.sydneyoperahouse.com/"
+        },
+        {
+          "name":"Three Sisters",
+          "address":"23-31 Echo Point Rd, Katoomba",
+          "priceRange": "$",
+          "url":"bluemountains.jpg",
+          "website":"https://www.bluemts.com.au/info/thingstodo/threesisters/"
+        },
+        {
+          "name":"Bondi to Coogee Hike",
+          "address":"Arden Street, Coogee",
+          "priceRange": "$",
+          "url":"btoc.jpg",
+          "website":"http://www.bonditocoogeewalk.com/"
+        },
+        {
+          "name":"Climb Sydney Harbour Bridge",
+          "address":"3 Cumberland St, The Rocks",
+          "priceRange": "$$$",
+          "url":"bridge.jpg",
+          "website":"https://www.bridgeclimb.com/"
+        },
+        {
+          "name":"Explore Darling Harbour",
+          "address":"Darling Harbour",
           "priceRange": "$$",
-          "url":"l.jpg"
+          "url":"darling.jpg",
+          "website":"http://www.darlingharbour.com/media/2291/darling_harbour_map_2017.pdf"
+        }
+      ]
+    }
+  ],
+  "food": [
+    {
+      "summary": "Here are some of our favorite places to eat in the city. If you are new to the city, we highly encourage you to take on this map as a way to taste your way through the city.",
+
+      "locations":[
+        {
+          "name":"Gelato Messina",
+          "address":"Surry Hills, 389 Crown St, Surry Hills",
+          "details": "A must visit if you care at all for creamy treats. There are multiple locations around this city, but this is our favorite",
+          "priceRange": "$",
+          "url":"gelato.jpg",
+          "website":"http://www.gelatomessina.com/au/"
+        },
+        {
+          "name":"Chinese Noodle House",
+          "address":"8 Quay St, Haymarket",
+          "details": "This gem lies in the heart of china town. Bring cash and prepare to wait in line -- its worth it.",
+          "priceRange": "$",
+          "url":"noodles.jpg",
+          "website":""
+        },
+        {
+          "name":"Bourke Street Bakery",
+          "address":"633 Bourke St, Surry Hills",
+          "details": "Bourke St Bakery offers a wide selection of pasteries, but be sure to try the meat pies and the sausage rolls",
+          "priceRange": "$",
+          "url":"bourke.jpg",
+          "website":"http://bourkestreetbakery.com.au/"
+        },
+        {
+          "name":"Kepos Street Kitchen",
+          "address":"96 Kepos St, Redfern",
+          "details": "If you are after a stellar Aussie breakfast, this mediterranean fusion cafe hits the spot every time.",
+          "priceRange": "$$",
+          "url":"kepos.jpg",
+          "website":"https://www.keposstreetkitchen.com.au/"
+        },
+        {
+          "name":"The Grounds of Alexandria",
+          "address":"7a/2 Huntley St, Alexandria",
+          "details": "When I asked Pat why he recommends this, he replied `It's just dope!`... so you should check it out.",
+          "priceRange": "$$",
+          "url":"alexandria.jpg",
+          "website":"https://thegrounds.com.au/"
+        },
+        {
+          "name":"Via Napoli Pizzaria",
+          "address":"628 Crown St, Surry Hills",
+          "details": "2 meter pizza from a brick oven made with amazing ingredients makes for a great option for a family style meal.",
+          "priceRange": "$$",
+          "url":"pizza.jpg",
+          "website":"https://www.vianapolipizzeria.com.au/"
         }
       ]
     }

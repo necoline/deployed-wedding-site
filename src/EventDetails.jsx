@@ -24,7 +24,7 @@ class EventDetails extends Component {
               </Link>
             </div>
             <div className="top-menu-text-right">
-              <Link to="/">
+              <Link to="/our-story">
                 Our Story
               </Link>
             </div>
